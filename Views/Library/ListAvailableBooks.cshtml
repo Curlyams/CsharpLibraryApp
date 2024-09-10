@@ -1,0 +1,42 @@
+@model IEnumerable<LibrarySystems.Models.Book>
+
+<h2>Available Books</h2>
+
+<p>
+    @Html.ActionLink("Add a New Book", "AddBook", "Library", null, new { @class = "btn btn-primary" })
+</p>
+<!-- Link to List Members -->
+<p>
+    @Html.ActionLink("View Members", "ListAvailableMembers", "Library", null, new { @class = "btn btn-secondary" })
+</p>
+<!-- Link to add Members -->
+<p>
+    @Html.ActionLink("Add a New Member", "AddMember", "Library", null, new { @class = "btn btn-secondary" })
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Title</td> <!-- Ensure these match the property names exactly -->
+                <td>@book.Author</td>
+                <td>@book.ISBN</td>
+                <td>
+                    <form asp-action="BorrowBook" method="get">
+                        <input type="hidden" name="id" value="@book.Id" />
+                        <button type="submit" class="btn btn-primary">Borrow</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

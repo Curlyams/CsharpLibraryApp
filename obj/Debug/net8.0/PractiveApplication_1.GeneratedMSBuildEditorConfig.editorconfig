@@ -1,0 +1,39 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PractiveApplication_1
+build_property.RootNamespace = PractiveApplication_1
+build_property.ProjectDir = C:\Users\bcurl\Desktop\Suvoda Coding Interview\PractiveApplication_1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\bcurl\Desktop\Suvoda Coding Interview\PractiveApplication_1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/bcurl/Desktop/Suvoda Coding Interview/PractiveApplication_1/Views/Library/AddBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxBZGRCb29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bcurl/Desktop/Suvoda Coding Interview/PractiveApplication_1/Views/Library/AddMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxBZGRNZW1iZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bcurl/Desktop/Suvoda Coding Interview/PractiveApplication_1/Views/Library/ListAvailableBooks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxMaXN0QXZhaWxhYmxlQm9va3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bcurl/Desktop/Suvoda Coding Interview/PractiveApplication_1/Views/Library/ListAvailableMembers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxMaXN0QXZhaWxhYmxlTWVtYmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bcurl/Desktop/Suvoda Coding Interview/PractiveApplication_1/Views/Library/SearchBooks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxTZWFyY2hCb29rcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

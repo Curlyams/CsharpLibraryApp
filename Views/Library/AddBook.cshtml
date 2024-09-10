@@ -1,0 +1,25 @@
+@model LibrarySystems.Models.Book
+
+<h2>Add a New Book</h2>
+
+<form asp-action="AddBook" method="post" role="form">
+    <div class="form-group">
+        <label asp-for="Title">Title</label>
+        <!-- Ensure the asp-for attribute is correctly applied to the input -->
+        <input type="text" name="Title" asp-for="Title" class="form-control" />
+        
+        <!-- Ensure the validation span correctly targets the model property -->
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Author">Author</label>
+        <input type="text" name="Author" asp-for="Author" class="form-control" />
+        <span asp-validation-for="Author" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ISBN">ISBN</label>
+        <input type="text" name="ISBN" asp-for="ISBN" class="form-control" />
+        <span asp-validation-for="ISBN" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Add Book</button>
+</form>

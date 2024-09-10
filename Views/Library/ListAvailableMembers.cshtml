@@ -1,0 +1,21 @@
+@model IEnumerable<LibrarySystems.Models.Member>
+
+<h2>Members List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Member ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var member in Model)
+        {
+            <tr>
+                <td>@member.Name</td>
+                <td>@member.MemberId</td>
+            </tr>
+        }
+    </tbody>
+</table>
